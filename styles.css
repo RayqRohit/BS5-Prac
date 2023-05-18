@@ -1,0 +1,285 @@
+.navbar {
+    padding: 15px 25px;
+    background-color: rgb(33, 31, 31);
+}
+
+.navbar-brand{
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+#title .nav-item{
+    font-size: 19px;
+    padding: 0px 4px;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+ 
+}
+
+#scroll-spy{
+    padding: 3%;
+ 
+}
+
+#scroll-spy li a {
+    color: #fff;
+}
+
+#scroll-spy .dropdown-menu{
+    background-color: black;
+}
+
+#scroll-spy .nav-item{
+    font-size: 17px;
+}
+
+h4{
+    font-weight: bolder;
+}
+
+.scrollspy-example{
+    padding: 2%;
+}
+
+.dropdown-2{
+  
+   display: inline-block;
+
+
+}
+
+.navbar-nav .nav-link {
+    padding-right: 4px;
+    padding-left: 7px;
+}
+
+#scroll-spy .container-fluid{
+    border: 2px solid gainsboro;
+    margin: 0px;
+    padding: 0px;
+}
+
+.features-title {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.features-heading {
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 35px;
+
+}
+
+.about-img {
+    min-width: 100%;
+    max-height: 350px;
+}
+
+
+
+/* .border-div{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+} */
+
+.full-contain {
+    width: 100%;
+    height: 100%;
+}
+
+.after-gallery {
+    background-color: #d4dae4;
+}
+
+.service {
+    background-color: #d4dae4;
+}
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color:#493c79;;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+.border-form {
+    background-color: #e0e0e0;
+    padding: 3% 3%;
+    border-radius: 10px;
+    width: 87%;
+}
+
+.modal-title {
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+form{
+    text-align: left;
+}
+
+.gx-2{
+    margin: 0px 4px;
+}
+
+#inlineFormInputGroupUsername{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* span{x
+height: 3.1rem;
+position: relative;
+top: 6px;
+font-weight: bolder;
+} */
+
+.social-media{
+    padding: 5px;
+}
+
+.footer-right{
+    text-align: right;
+  
+}
+
+#features-img{
+    grid-area: features-img;
+}
+
+#features-head{
+    grid-area: features-head;
+}
+
+
+@media (max-width : 990px){
+    .features-heading{
+        text-align: center;
+        padding-top: 8%;
+    }
+
+   
+}
+
+@media (max-width : 390px){
+
+   .service .btn{
+      display: inline-block;
+      width: 100%;
+    }
+}
+
+@media (min-width :390px) and (max-width : 780px){
+    .service .btn{
+       
+       padding: 10px 10px;
+      }
+
+    
+}
+
+@media (max-width : 800px){
+ 
+    .service .py-5 {
+        padding-top: 2.5rem!important;
+        padding-bottom: 2rem!important;
+    }
+    
+}
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px){
+
+    hr{
+        width: 50%;
+    }
+
+    .full-width{
+        width: 50%;
+    }
+
+}
+
+
+@media (min-width: 576px) { 
+    hr{
+        width: 50%;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    hr{
+        width: 70%;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  
+    hr{
+        width: 25%;
+    }
+
+    .full-width{
+        width: 100%;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    hr{
+        width: 25%;
+    }
+
+    .full-width{
+        width: 100%;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    hr{
+        width: 25%;
+    }
+
+    .full-width{
+        width: 100%;
+    }
+
+   
+ }
